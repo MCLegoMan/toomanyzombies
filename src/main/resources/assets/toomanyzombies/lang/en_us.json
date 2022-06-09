@@ -2,6 +2,9 @@
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
 
+  "origin.tmz.tmz.name": "Too Many Zombies",
+  "origin.tmz.tmz.description": "You have a selection between, Baby Zombie, Zombie, Husk, Drowned and Zombified Piglin.",
+
   "origin.toomanyzombies.baby_zombie.name": "Baby Zombie",
   "origin.toomanyzombies.baby_zombie.description": "Grr",
 
@@ -38,6 +41,24 @@
   "power.toomanyzombies.zombie/health.name": "Health and Agility",
   "power.toomanyzombies.zombie/health.description": "2 block tall and slow.",
 
+  "power.toomanyzombies.common/starting.name": "Natural Ability",
+  "power.toomanyzombies.common/starting.description": "You can choose your natural ability.",
+
+  "power.toomanyzombies.common/inability.name": "Stunned",
+  "power.toomanyzombies.common/inability.description": "You lose access to all of your abilities when you take damage, for 2 seconds.",
+
+  "power.toomanyzombies.common/upgrading.name": "Enchanting",
+  "power.toomanyzombies.common/upgrading.description": "Once you absorb the Enchanted Rotten Flesh, You will become stronger.",
+
+  "layer.origins.tmz.name": "Too Many Zombies: Origin",
+  "layer.origins.tmz.missing_origin.name": "None",
+  "layer.origins.tmz.missing_origin.description": "You are not a Zombie.",
+  "origin.origins.tmz.name": "Too Many Zombies: Origin",
+  "origin.origins.tmz.gui_title.choose_origin": "Too Many Zombies: Origin",
+  "origin.origins.tmz.gui_title.view_origin": "Too Many Zombies: Origin",
+  "origin.tmz.none.name": "None",
+  "origin.tmz.none.description": "You are not a Zombie.",
+
   "layer.origins.ability.name": "Ability",
   "layer.origins.ability.missing_origin.name": "Missing",
   "layer.origins.ability.missing_origin.description": "You do not have an ability.",
@@ -50,7 +71,7 @@
   "origin.toomanyzombies-ability.none.description": "You do not have any extra abilities.",
 
   "origin.toomanyzombies-ability.sunscreen.name": "Sunscreen",
-  "origin.toomanyzombies-ability.sunscreen.description": "Ouch! That's hot! - Well not anymore.",
+  "origin.toomanyzombies-ability.sunscreen.description": "Ouch! That's hot! - Well not anymore. (Useless for Husk and Zombified Piglin Origins)",
 
   "origin.toomanyzombies-ability.handyman.name": "Handyman",
   "origin.toomanyzombies-ability.handyman.description": "Oh so Handy!",
@@ -88,7 +109,5 @@
   "itemGroup.toomanyzombies.tmz_items": "Too Many Zombies: Items",
 
   "item.toomanyzombies.enchantment_shard": "Enchantment Shard",
-  "item.toomanyzombies.enchanted_rotten_flesh": "Enchanted Rotten Flesh",
-
-  "effect.toomanyzombies.inability": "Inability"
+  "item.toomanyzombies.enchanted_rotten_flesh": "Enchanted Rotten Flesh"
 }

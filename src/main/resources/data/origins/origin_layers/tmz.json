@@ -2,7 +2,7 @@
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
   "replace": false,
-  "order": 3,
+  "order": 2,
   "origins": [
     {
       "condition": {
@@ -12,13 +12,11 @@
         "inverted": false
       },
       "origins": [
-        "toomanyzombies-ability:none",
-        "toomanyzombies-ability:sunscreen",
-        "toomanyzombies-ability:interdimentional",
-        "toomanyzombies-ability:handyman",
-        "toomanyzombies-ability:brawniness",
-        "toomanyzombies-ability:pockets",
-        "toomanyzombies-ability:swiftness"
+        "toomanyzombies:baby_zombie",
+        "toomanyzombies:zombie",
+        "toomanyzombies:husk",
+        "toomanyzombies:drowned",
+        "toomanyzombies:zombified_piglin"
       ]
     }
   ]

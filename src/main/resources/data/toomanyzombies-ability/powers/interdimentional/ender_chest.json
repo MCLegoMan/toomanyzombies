@@ -11,7 +11,7 @@
   "cooldown": 0,
   "condition": {
     "type": "origins:status_effect",
-    "effect": "toomanyzombies:inability",
+    "effect": "legolib:inability",
     "min_amplifier": 0,
     "inverted": true
   },

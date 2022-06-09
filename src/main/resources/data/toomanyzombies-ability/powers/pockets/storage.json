@@ -6,5 +6,11 @@
   "key": {
     "key": "key.origins.primary_active",
     "continuous": false
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "legolib:inability",
+    "min_amplifier": 0,
+    "inverted": true
   }
 }

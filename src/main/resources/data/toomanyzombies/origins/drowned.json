@@ -3,10 +3,11 @@
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
     "toomanyzombies:drowned/health",
-    "toomanyzombies:common/heliophobia",
-    "toomanyzombies:common/entity_type",
+    "toomanyzombies:common/zombie_skull",
+    "toomanyzombies:drowned/spawn",
     "toomanyzombies:common/inability",
-    "toomanyzombies:common/ignore_undead"
+    "toomanyzombies:common/heliophobia",
+    "toomanyzombies:common/upgrading"
   ],
   "icon": "minecraft:rotten_flesh",
   "order": 1,

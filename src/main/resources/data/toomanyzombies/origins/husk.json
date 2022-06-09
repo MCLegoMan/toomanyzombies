@@ -3,11 +3,12 @@
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
     "toomanyzombies:husk/health",
+    "toomanyzombies:common/zombie_skull",
+    "toomanyzombies:husk/spawn",
+    "toomanyzombies:common/inability",
     "toomanyzombies:common/fireproof",
     "toomanyzombies:common/remove_fire",
-    "toomanyzombies:common/entity_type",
-    "toomanyzombies:common/inability",
-    "toomanyzombies:common/ignore_undead"
+    "toomanyzombies:common/upgrading"
   ],
   "icon": "minecraft:rotten_flesh",
   "order": 1,

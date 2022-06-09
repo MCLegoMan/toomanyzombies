@@ -2,13 +2,12 @@
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
-    "toomanyzombies:common/zombie_skull",
     "toomanyzombies:zombie/health",
-    "toomanyzombies:common/heliophobia",
-    "toomanyzombies:common/upgrading",
-    "toomanyzombies:common/entity_type",
+    "toomanyzombies:common/zombie_skull",
+    "toomanyzombies:zombie/spawn",
     "toomanyzombies:common/inability",
-    "toomanyzombies:common/ignore_undead"
+    "toomanyzombies:common/heliophobia",
+    "toomanyzombies:common/upgrading"
   ],
   "icon": "minecraft:rotten_flesh",
   "order": 1,

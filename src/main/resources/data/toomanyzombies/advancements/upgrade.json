@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Enchanted!",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "You have found and absorbed The Enchanted Rotten Flesh!",
+            "color": "green"
+        },
+        "icon": {
+            "item": "toomanyzombies:enchanted_rotten_flesh"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/entity/end_portal.png"
+    },
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 24
+    },
+    "parent": "toomanyzombies:root"
+}

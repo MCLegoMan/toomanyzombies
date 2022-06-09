@@ -1,19 +1,56 @@
 {
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
-  "type": "origins:multiple",
-  "grant_advancement": {
-    "type": "origins:execute_command",
-    "command": "say upgrading"
-  },
-  "use_item": {
-    "type": "origins:execute_command",
-    "command": "clear @s toomanyzombies:enchanted_rotten_flesh 1"
-  },
-  "condition": {
-    "type": "origins:using_item",
-    "item_condition": {
-      "type": "origins:food"
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "toomanyzombies:enchanted_rotten_flesh"
+        }
+      }
+    },
+    "if_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @s legolib:upgrading 2 0"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s toomanyzombies:enchanted_rotten_flesh 1"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "title @s times 0 80 0"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "title @s title {\"text\":\"= Enchanting =\",\"bold\":true,\"color\":\"green\"}"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.zombie.break_wooden_door voice @s ~ ~ ~ 1 0.1"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only toomanyzombies:upgrade"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "title @s times 0 80 0"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "title @s title {\"text\":\"= Enchanted =\",\"bold\":true,\"color\":\"green\"}"
+        }
+      ]
     }
-  }
+  },
+  "interval": 5
 }
