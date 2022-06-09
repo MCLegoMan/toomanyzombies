@@ -1,9 +1,0 @@
-{
-  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
-  "_license": "Open Source MCLegoMan Software License",
-  "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:extinguish"
-  },
-  "interval": 1
-}
