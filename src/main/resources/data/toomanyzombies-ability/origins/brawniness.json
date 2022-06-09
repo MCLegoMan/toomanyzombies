@@ -1,0 +1,11 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "powers": [
+    "toomanyzombies-ability:brawniness/strength",
+    "toomanyzombies-ability:brawniness/resistance"
+  ],
+  "icon": "minecraft:diamond_sword",
+  "order": 4,
+  "impact": 1
+}

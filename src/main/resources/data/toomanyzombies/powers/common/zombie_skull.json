@@ -1,0 +1,21 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "item replace entity @s armor.head with minecraft:zombie_head{Unbreakable:1,display:{Name:'[{\"text\":\"Grrr!\",\"italic\":false,\"color\":\"white\"}]',Lore:['[{\"text\":\"You look a tad bit green.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1},{id:\"minecraft:vanishing_curse\",lvl:1}],HideFlags:5}",
+    "permission_level": 4
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "item replace entity @s armor.head with minecraft:zombie_head{Unbreakable:1,display:{Name:'[{\"text\":\"Grrr!\",\"italic\":false,\"color\":\"white\"}]',Lore:['[{\"text\":\"You look a tad bit green.\",\"italic\":false,\"color\":\"gray\"}]']},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1},{id:\"minecraft:vanishing_curse\",lvl:1}],HideFlags:5}",
+    "permission_level": 4
+  },
+  "entity_action_removed": {
+    "type": "origins:execute_command",
+    "command": "item replace entity @s armor.head with minecraft:air",
+    "permission_level": 4
+  },
+  "hidden": true
+}

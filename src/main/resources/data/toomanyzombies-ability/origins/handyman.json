@@ -1,0 +1,10 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "powers": [
+    "toomanyzombies-ability:handyman/crafting_table"
+  ],
+  "icon": "minecraft:crafting_table",
+  "order": 3,
+  "impact": 1
+}

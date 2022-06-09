@@ -1,0 +1,10 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "type": "origins:burn",
+  "interval": 20,
+  "burn_duration": 20,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  }
+}

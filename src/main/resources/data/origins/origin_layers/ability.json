@@ -1,0 +1,18 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "replace": false,
+  "order": 1,
+  "origins": [
+    "toomanyzombies-ability:none",
+    "toomanyzombies-ability:sunscreen",
+    "toomanyzombies-ability:interdimentional",
+    "toomanyzombies-ability:handyman",
+    "toomanyzombies-ability:brawniness",
+    "toomanyzombies-ability:pockets",
+    "toomanyzombies-ability:swiftness"
+  ],
+  "auto_choose": false,
+  "default_origin": "toomanyzombies-ability:none",
+  "hidden": false
+}

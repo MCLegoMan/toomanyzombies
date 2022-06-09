@@ -1,0 +1,12 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "replace": false,
+  "origins": [
+    "toomanyzombies:baby_zombie",
+    "toomanyzombies:zombie",
+    "toomanyzombies:husk",
+    "toomanyzombies:drowned",
+    "toomanyzombies:zombified_piglin"
+  ]
+}

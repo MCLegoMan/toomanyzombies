@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "toomanyzombies:item/enchantment_shard"
+  }
+}

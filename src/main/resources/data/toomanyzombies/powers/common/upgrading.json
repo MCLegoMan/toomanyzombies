@@ -1,0 +1,19 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "type": "origins:multiple",
+  "grant_advancement": {
+    "type": "origins:execute_command",
+    "command": "say upgrading"
+  },
+  "use_item": {
+    "type": "origins:execute_command",
+    "command": "clear @s toomanyzombies:enchanted_rotten_flesh 1"
+  },
+  "condition": {
+    "type": "origins:using_item",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  }
+}

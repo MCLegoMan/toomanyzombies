@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "toomanyzombies",
+  "version": "${version}",
+
+  "name": "Origins: Too Many Zombies",
+  "description": "This mod adds several new origins too the game which allows you to play as zombies.",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contact": {
+    "homepage": "https://mclegoman.com/open-source-mclegoman-software-license/"
+  },
+
+  "license": "Open Source MCLegoMan Software License",
+  "icon": "assets/toomanyzombies/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mclegoman.toomanyzombies.main"
+    ]
+  },
+  "mixins": [
+    "toomanyzombies.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*",
+    "java": ">=17",
+    "origins": "*",
+    "legolib": ">=1.0.0"
+  }
+}
