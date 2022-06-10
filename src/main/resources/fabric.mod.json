@@ -31,6 +31,6 @@
     "minecraft": "*",
     "java": ">=17",
     "origins": "*",
-    "legolib": ">=1.0.0"
+    "legolib": ">=1.2.0"
   }
 }
