@@ -5,12 +5,14 @@
     "toomanyzombies:husk/health",
     "toomanyzombies:common/zombie_skull",
     "toomanyzombies:husk/spawn",
+    "toomanyzombies:common/friendly",
+    "toomanyzombies:common/damages",
     "toomanyzombies:common/inability",
     "toomanyzombies:common/fireproof",
     "toomanyzombies:common/remove_fire",
     "toomanyzombies:common/upgrading"
   ],
   "icon": "minecraft:rotten_flesh",
-  "order": 1,
+  "order": 4,
   "impact": 1
 }

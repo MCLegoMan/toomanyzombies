@@ -5,11 +5,13 @@
     "toomanyzombies:drowned/health",
     "toomanyzombies:common/zombie_skull",
     "toomanyzombies:drowned/spawn",
+    "toomanyzombies:common/friendly",
+    "toomanyzombies:common/damages",
     "toomanyzombies:common/inability",
     "toomanyzombies:common/heliophobia",
     "toomanyzombies:common/upgrading"
   ],
   "icon": "minecraft:rotten_flesh",
-  "order": 1,
+  "order": 6,
   "impact": 1
 }

@@ -1,0 +1,39 @@
+{
+  "type": "origins:multiple",
+  "invert_instant_effects": {
+    "type": "apugli:invert_instant_effects"
+  },
+  "no_regen": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:regeneration",
+      "minecraft:poison",
+      "minecraft:wither"
+    ]
+  },
+  "smite": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:enchantment",
+              "enchantment": "minecraft:smite",
+              "comparison": ">=",
+              "compare_to": 1
+            }
+          ]
+        }
+      }
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 5.5
+    }
+  }
+}

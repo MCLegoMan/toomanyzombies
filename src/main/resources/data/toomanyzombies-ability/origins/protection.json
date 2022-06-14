@@ -1,0 +1,11 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "powers": [
+    "toomanyzombies-ability:protection/thorns",
+    "toomanyzombies-ability:protection/fall"
+  ],
+  "icon": "minecraft:diamond_chestplate",
+  "order": 5,
+  "impact": 1
+}

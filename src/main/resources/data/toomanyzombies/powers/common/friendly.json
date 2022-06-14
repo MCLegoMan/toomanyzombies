@@ -1,0 +1,80 @@
+{
+  "type": "origins:multiple",
+  "zombie": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:zombie"
+    }
+  },
+  "husk": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:husk"
+    }
+  },
+  "drowned": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:drowned"
+    }
+  },
+  "zombified_piglin": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:zombified_piglin"
+    }
+  },
+  "piglin": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:piglin"
+    }
+  },
+  "skeleton": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:skeleton"
+    }
+  },
+  "creeper": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:creeper"
+    }
+  },
+  "spider": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:spider"
+    }
+  },
+  "cave_spider": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:cave_spider"
+    }
+  },
+  "enderman": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:enderman"
+    }
+  },
+  "endermite": {
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+      "type": "apoli:entity_type",
+      "entity_type": "minecraft:endermite"
+    }
+  }
+}

@@ -11,11 +11,20 @@
   "origin.toomanyzombies.zombie.name": "Zombie",
   "origin.toomanyzombies.zombie.description": "Grr",
 
+  "origin.toomanyzombies.baby_husk.name": "Baby Husk",
+  "origin.toomanyzombies.baby_husk.description": "Grr",
+
   "origin.toomanyzombies.husk.name": "Husk",
   "origin.toomanyzombies.husk.description": "Grr",
 
+  "origin.toomanyzombies.baby_drowned.name": "Baby Drowned",
+  "origin.toomanyzombies.baby_drowned.description": "Grr",
+
   "origin.toomanyzombies.drowned.name": "Drowned",
   "origin.toomanyzombies.drowned.description": "Grr",
+
+  "origin.toomanyzombies.baby_zombified_piglin.name": "Baby Zombified Piglin",
+  "origin.toomanyzombies.baby_zombified_piglin.description": "Grr",
 
   "origin.toomanyzombies.zombified_piglin.name": "Zombified Piglin",
   "origin.toomanyzombies.zombified_piglin.description": "Grr",

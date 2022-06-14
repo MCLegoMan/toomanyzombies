@@ -1,0 +1,36 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "type": "apoli:modify_falling",
+  "velocity": 0.1,
+  "take_fall_damage": false,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking"
+          },
+          {
+            "type": "origins:fall_flying"
+          }
+        ]
+      },
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking",
+            "inverted": true
+          },
+          {
+            "type": "origins:fall_flying",
+            "inverted": true
+          }
+        ]
+      }
+    ]
+  }
+}

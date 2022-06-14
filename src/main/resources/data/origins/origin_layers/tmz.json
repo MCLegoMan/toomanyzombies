@@ -14,8 +14,11 @@
       "origins": [
         "toomanyzombies:baby_zombie",
         "toomanyzombies:zombie",
+        "toomanyzombies:baby_husk",
         "toomanyzombies:husk",
+        "toomanyzombies:baby_drowned",
         "toomanyzombies:drowned",
+        "toomanyzombies:baby_zombified_piglin",
         "toomanyzombies:zombified_piglin"
       ]
     }

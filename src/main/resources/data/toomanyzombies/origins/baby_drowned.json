@@ -1,0 +1,17 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "powers": [
+    "toomanyzombies:drowned/health",
+    "toomanyzombies:common/zombie_skull",
+    "toomanyzombies:drowned/spawn",
+    "toomanyzombies:common/friendly",
+    "toomanyzombies:common/damages",
+    "toomanyzombies:common/inability_long",
+    "toomanyzombies:common/heliophobia",
+    "toomanyzombies:common/upgrading"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "order": 5,
+  "impact": 1
+}
