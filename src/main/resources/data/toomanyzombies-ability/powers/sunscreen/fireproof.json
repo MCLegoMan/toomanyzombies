@@ -1,0 +1,29 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:fire_resistance",
+          "duration": 320,
+          "amplifier": 0,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": true
+        }
+      }
+    ]
+
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "legolib:inability",
+    "min_amplifier": 0,
+    "inverted": true
+  }
+}

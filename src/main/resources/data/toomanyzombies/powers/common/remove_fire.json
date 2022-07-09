@@ -8,8 +8,8 @@
   "interval": 1,
   "condition": {
     "type": "origins:status_effect",
-    "effect": "legolib:inability",
+    "effect": "minecraft:fire_resistance",
     "min_amplifier": 0,
-    "inverted": true
+    "inverted": false
   }
 }

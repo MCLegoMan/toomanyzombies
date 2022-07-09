@@ -7,13 +7,65 @@
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "tmz:tmz",
-        "layer": "origins:origin",
+        "origin": "toomanyzombies:drowned",
+        "layer": "origins:tmz",
         "inverted": false
       },
       "origins": [
         "toomanyzombies-ability:none",
         "toomanyzombies-ability:sunscreen",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:swiftness",
+        "toomanyzombies-ability:protection"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "toomanyzombies:husk",
+        "layer": "origins:tmz",
+        "inverted": false
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:swiftness",
+        "toomanyzombies-ability:protection"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "toomanyzombies:zombie",
+        "layer": "origins:tmz",
+        "inverted": false
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:sunscreen",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:swiftness",
+        "toomanyzombies-ability:protection"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "toomanyzombies:zombified_piglin",
+        "layer": "origins:tmz",
+        "inverted": false
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
         "toomanyzombies-ability:interdimentional",
         "toomanyzombies-ability:handyman",
         "toomanyzombies-ability:brawniness",

@@ -19,11 +19,5 @@
     ]
 
   },
-  "interval": 20,
-  "condition": {
-    "type": "origins:status_effect",
-    "effect": "legolib:inability",
-    "min_amplifier": 0,
-    "inverted": true
-  }
+  "interval": 20
 }

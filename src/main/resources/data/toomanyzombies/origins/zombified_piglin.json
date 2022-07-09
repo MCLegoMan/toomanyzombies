@@ -2,15 +2,11 @@
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
-    "toomanyzombies:zombified_piglin/health",
-    "toomanyzombies:common/zombie_skull",
     "toomanyzombies:zombified_piglin/spawn",
+    "toomanyzombies:common:damages",
+    "toomanyzombies:common/heliophobia",
     "toomanyzombies:common/friendly",
-    "toomanyzombies:common/damages",
-    "toomanyzombies:common/inability",
-    "toomanyzombies:common/fireproof",
-    "toomanyzombies:common/remove_fire",
-    "toomanyzombies:common/upgrading"
+    "toomanyzombies:common/remove_fire"
   ],
   "icon": "minecraft:rotten_flesh",
   "order": 8,
