@@ -1,8 +1,10 @@
 {
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
-  "powers": [],
-  "icon": "minecraft:barrier",
+  "powers": [
+    "toomanyzombies-age:adult/size"
+  ],
+  "icon": "minecraft:rotten_flesh",
   "order": 1,
   "impact": 2
 }

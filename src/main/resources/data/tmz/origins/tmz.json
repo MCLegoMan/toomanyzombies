@@ -3,7 +3,7 @@
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
   ],
-  "icon": "minecraft:rotten_flesh",
+  "icon": "toomanyzombies:enchanted_rotten_flesh",
   "order": 2,
   "impact": 1
 }
