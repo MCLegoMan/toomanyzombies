@@ -1,0 +1,20 @@
+{
+  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "_license": "Open Source MCLegoMan Software License",
+  "replace": false,
+  "order": 3,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "tmz:tmz",
+        "layer": "origins:origin",
+        "inverted": false
+      },
+      "origins": [
+        "toomanyzombies-age:baby",
+        "toomanyzombies-age:adult"
+      ]
+    }
+  ]
+}

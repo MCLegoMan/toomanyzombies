@@ -24,7 +24,8 @@ dependencies {
 	//Pehkui
 	modImplementation ("com.github.Virtuoel:Pehkui:${project.pehkui_version}", {exclude group: "net.fabricmc.fabric-api"})
 	//apugli
-	include modImplementation("com.github.MerchantPug:apugli:${project.apugli_version}")
+	modImplementation "com.github.MerchantPug:apugli:${project.apugli_version}"
+	include "com.github.MerchantPug:apugli:${project.apugli_version}"
 }
 
 processResources {

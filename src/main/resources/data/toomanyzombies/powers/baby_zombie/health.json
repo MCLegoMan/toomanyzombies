@@ -3,7 +3,7 @@
   "_license": "Open Source MCLegoMan Software License",
   "type": "origins:multiple",
   "modify_size": {
-    "type": "toomanyzombies:modify_size",
+    "type": "legolib:modify_size",
     "scale": 0.5
   },
   "attribute_modifiers": {

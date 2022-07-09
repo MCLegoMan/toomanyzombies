@@ -1,80 +1,31 @@
 {
   "type": "origins:multiple",
-  "zombie": {
+  "undead": {
     "type": "apugli:mobs_ignore",
     "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:zombie"
+      "type": "origins:entity_group",
+      "group": "undead"
     }
   },
-  "husk": {
+  "arthropod": {
     "type": "apugli:mobs_ignore",
     "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:husk"
+      "type": "origins:entity_group",
+      "group": "arthropod"
     }
   },
-  "drowned": {
+  "illager": {
     "type": "apugli:mobs_ignore",
     "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:drowned"
+      "type": "origins:entity_group",
+      "group": "illager"
     }
   },
-  "zombified_piglin": {
+  "aquatic": {
     "type": "apugli:mobs_ignore",
     "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:zombified_piglin"
-    }
-  },
-  "piglin": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:piglin"
-    }
-  },
-  "skeleton": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:skeleton"
-    }
-  },
-  "creeper": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:creeper"
-    }
-  },
-  "spider": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:spider"
-    }
-  },
-  "cave_spider": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:cave_spider"
-    }
-  },
-  "enderman": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:enderman"
-    }
-  },
-  "endermite": {
-    "type": "apugli:mobs_ignore",
-    "mob_condition": {
-      "type": "apoli:entity_type",
-      "entity_type": "minecraft:endermite"
+      "type": "origins:entity_group",
+      "group": "aquatic"
     }
   }
 }
