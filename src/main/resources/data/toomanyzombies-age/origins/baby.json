@@ -2,7 +2,8 @@
   "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
   "_license": "Open Source MCLegoMan Software License",
   "powers": [
-    "toomanyzombies-age:baby/size"
+    "toomanyzombies-age:baby/size",
+    "toomanyzombies-age:baby/inability"
   ],
   "icon": "minecraft:rotten_flesh",
   "order": 0,
