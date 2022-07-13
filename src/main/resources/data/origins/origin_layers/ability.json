@@ -6,10 +6,49 @@
   "origins": [
     {
       "condition": {
-        "type": "origins:origin",
-        "origin": "toomanyzombies:drowned",
-        "layer": "origins:tmz",
-        "inverted": false
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:drowned",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:baby",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:sunscreen",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:protection"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:drowned",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:adult",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
       },
       "origins": [
         "toomanyzombies-ability:none",
@@ -21,13 +60,49 @@
         "toomanyzombies-ability:swiftness",
         "toomanyzombies-ability:protection"
       ]
-    },
-    {
+    },{
       "condition": {
-        "type": "origins:origin",
-        "origin": "toomanyzombies:husk",
-        "layer": "origins:tmz",
-        "inverted": false
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:husk",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:baby",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:protection"
+      ]
+    },{
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:husk",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:adult",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
       },
       "origins": [
         "toomanyzombies-ability:none",
@@ -38,13 +113,50 @@
         "toomanyzombies-ability:swiftness",
         "toomanyzombies-ability:protection"
       ]
-    },
-    {
+    },{
       "condition": {
-        "type": "origins:origin",
-        "origin": "toomanyzombies:zombie",
-        "layer": "origins:tmz",
-        "inverted": false
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:zombie",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:baby",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:sunscreen",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:protection"
+      ]
+    },{
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:zombie",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:adult",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
       },
       "origins": [
         "toomanyzombies-ability:none",
@@ -56,13 +168,49 @@
         "toomanyzombies-ability:swiftness",
         "toomanyzombies-ability:protection"
       ]
-    },
-    {
+    },{
       "condition": {
-        "type": "origins:origin",
-        "origin": "toomanyzombies:zombified_piglin",
-        "layer": "origins:tmz",
-        "inverted": false
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:zombified_piglin",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:baby",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
+      },
+      "origins": [
+        "toomanyzombies-ability:none",
+        "toomanyzombies-ability:interdimentional",
+        "toomanyzombies-ability:handyman",
+        "toomanyzombies-ability:brawniness",
+        "toomanyzombies-ability:pockets",
+        "toomanyzombies-ability:protection"
+      ]
+    },{
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies:zombified_piglin",
+            "layer": "origins:tmz",
+            "inverted": false
+          },
+          {
+            "type": "origins:origin",
+            "origin": "toomanyzombies-age:adult",
+            "layer": "origins:age",
+            "inverted": false
+          }
+        ]
       },
       "origins": [
         "toomanyzombies-ability:none",
