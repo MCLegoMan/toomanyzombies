@@ -1,0 +1,9 @@
+{
+  "copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "license": "Open Source MCLegoMan Software License",
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -0.25
+  }
+}
