@@ -1,14 +1,15 @@
 {
-  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
-  "_license": "Open Source MCLegoMan Software License",
+  "copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "license": "Open Source MCLegoMan Software License",
   "powers": [
     "toomanyzombies:husk/spawn",
-    "toomanyzombies:common:damages",
+    "toomanyzombies:common/damages",
     "toomanyzombies:common/fireproof",
     "toomanyzombies:common/friendly",
+    "toomanyzombies:common/swim_speed",
     "toomanyzombies:common/remove_fire"
   ],
   "icon": "minecraft:rotten_flesh",
-  "order": 4,
+  "order": 3,
   "impact": 1
 }

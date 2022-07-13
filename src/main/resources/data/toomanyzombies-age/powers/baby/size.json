@@ -19,7 +19,7 @@
         "name": "Origin modifier",
         "attribute": "minecraft:generic.movement_speed",
         "operation": "multiply_total",
-        "value": 0.5
+        "value": 0.25
       },
       {
         "name": "Origin modifier",
@@ -41,13 +41,6 @@
       "name": "Origin modifier",
       "operation": "multiply_total",
       "value": 0
-    }
-  },
-  "swim_modifiers": {
-    "type": "origins:modify_swim_speed",
-    "modifier": {
-      "operation": "multiply_total",
-      "value": -0.25
     }
   }
 }
