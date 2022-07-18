@@ -31,6 +31,8 @@
   "power.toomanyzombies.husk/spawn.description": "You will spawn in the Desert.",
   "origin.toomanyzombies.drowned.name": "Drowned",
   "origin.toomanyzombies.drowned.description": "You are the Zombie of the Ocean, You are the Drowned!",
+  "power.toomanyzombies.drowned/breathing.name": "Breath of Salty Water",
+  "power.toomanyzombies.drowned/breathing.description": "You can breath underwater.",
   "power.toomanyzombies.drowned/swim_speed.name": "Rotten Swimmer",
   "power.toomanyzombies.drowned/swim_speed.description": "You are better at swimming compared to other zombies, however not as good as a Human.",
   "power.toomanyzombies.drowned/spawn.name": "Spawn",
