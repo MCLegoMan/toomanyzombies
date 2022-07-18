@@ -1,5 +1,5 @@
 # Origins - Too Many Zombies
-_dev1.0.0 for Fabric 1.19_
+_beta1.0.2 for Fabric 1.19_
 
 **_THIS MOD IS CURRENTLY UNDER DEVELOPMENT,_**
 
