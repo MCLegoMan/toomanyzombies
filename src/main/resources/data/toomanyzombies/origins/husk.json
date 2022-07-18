@@ -3,10 +3,11 @@
   "license": "Open Source MCLegoMan Software License",
   "powers": [
     "toomanyzombies:husk/spawn",
+    "toomanyzombies:common/ability",
     "toomanyzombies:common/damages",
     "toomanyzombies:common/fireproof",
-    "toomanyzombies:common/friendly",
     "toomanyzombies:common/swim_speed",
+    "toomanyzombies:common/friendly",
     "toomanyzombies:common/remove_fire"
   ],
   "icon": "minecraft:rotten_flesh",

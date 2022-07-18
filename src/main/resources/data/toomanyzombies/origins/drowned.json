@@ -6,8 +6,8 @@
     "toomanyzombies:common/ability",
     "toomanyzombies:common/damages",
     "toomanyzombies:common/heliophobia",
-    "toomanyzombies:common/friendly",
     "toomanyzombies:drowned/swim_speed",
+    "toomanyzombies:common/friendly",
     "toomanyzombies:common/remove_fire"
   ],
   "icon": "minecraft:rotten_flesh",
