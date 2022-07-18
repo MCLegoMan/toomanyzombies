@@ -11,19 +11,16 @@ version = project.mod_version
 group = project.maven_group
 
 dependencies {
-	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	// LegoLib.
-	include modImplementation("com.github.MCLegoMan:legolib:${project.legolib_version}")
-	//Origins
+	include "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation "com.github.MCLegoMan:legolib:${project.legolib_version}"
+	include "com.github.MCLegoMan:legolib:${project.legolib_version}"
 	modImplementation "com.github.apace100:apoli:${project.apoli_version}"
-	//Pehkui
+	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 	modImplementation ("com.github.Virtuoel:Pehkui:${project.pehkui_version}", {exclude group: "net.fabricmc.fabric-api"})
-	//apugli
 	modImplementation "com.github.MerchantPug:apugli:${project.apugli_version}"
 	include "com.github.MerchantPug:apugli:${project.apugli_version}"
 }
