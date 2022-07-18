@@ -1,0 +1,11 @@
+{
+  "copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "license": "Open Source MCLegoMan Software License",
+  "type": "origins:toggle_night_vision",
+  "strength": 1.0,
+  "active_by_default": true,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

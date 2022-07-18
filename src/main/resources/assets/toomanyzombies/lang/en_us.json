@@ -47,6 +47,8 @@
   "power.toomanyzombies.common/damages.description": "You are immune to Regeneration, Poison and the Wither effects. You also take more damage to Smite.",
   "power.toomanyzombies.common/fireproof.name": "Fireproof",
   "power.toomanyzombies.common/fireproof.description": "You don't take fire damage.",
+  "power.toomanyzombies.common/nightvision.name": "Vision",
+  "power.toomanyzombies.common/nightvision.description": "You can see in the dark.",
   "power.toomanyzombies.common/friendly.name": "Undead Alliance",
   "power.toomanyzombies.common/friendly.description": "Mobs don't attack you.",
   "power.toomanyzombies.common/heliophobia.name": "Heliophobia",
