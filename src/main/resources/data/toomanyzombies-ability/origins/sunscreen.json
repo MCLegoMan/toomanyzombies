@@ -1,6 +1,6 @@
 {
-  "_copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
-  "_license": "Open Source MCLegoMan Software License",
+  "copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "license": "Open Source MCLegoMan Software License",
   "powers": [
     "toomanyzombies-ability:sunscreen/fireproof"
   ],
