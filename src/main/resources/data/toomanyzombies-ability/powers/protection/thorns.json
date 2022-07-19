@@ -25,5 +25,11 @@
   "prevent_block_slowness": {
     "type": "legolib:prevent_block_slowness",
     "inverted": true
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "legolib:inability",
+    "min_amplifier": 0,
+    "inverted": true
   }
 }

@@ -1,0 +1,10 @@
+{
+  "copyright": "Copyright (c) Daniel-Tayden Larsen 2022",
+  "license": "Open Source MCLegoMan Software License",
+  "powers": [
+    "toomanyzombies-ability:fins/waterproof"
+  ],
+  "icon": "minecraft:water_bucket",
+  "order": 1,
+  "impact": 1
+}

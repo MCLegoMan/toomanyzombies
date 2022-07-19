@@ -9,7 +9,7 @@
         "type": "origins:apply_effect",
         "effect": {
           "effect": "minecraft:strength",
-          "duration": 320,
+          "duration": 20,
           "amplifier": 0,
           "is_ambient": false,
           "show_particles": false,
