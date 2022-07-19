@@ -19,7 +19,7 @@
     ]
 
   },
-  "interval": 20,
+  "interval": 10,
   "condition": {
     "type": "origins:status_effect",
     "effect": "legolib:inability",
